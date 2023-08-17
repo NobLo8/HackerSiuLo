@@ -13,7 +13,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 -- Main window
 local Window = OrionLib:MakeWindow({
-    Name = "Script Hack NobLo (Nit)",
+    Name = "Script Hack NobLo (Phiên Bản Thử Nghiệm Beta)",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "YourConfigFolder"
@@ -153,21 +153,21 @@ ServersTab:AddButton({
 })
 
 GameTab:AddButton({
-    Name = "Push Simulator",
+    Name = "Push Simulator (Tora)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/5Polosok/Scripts/main/Protected_8084973456111507.lua"))()
     end
 })
 
 GameTab:AddButton({
-    Name = "Punch simulator",
+    Name = "Punch simulator (Tora)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAP1ayer/PlayerHubOther/main/PlayerHubPunchingSimulator.lua", true))()
     end
 })
 
 GameTab:AddButton({
-    Name = "Ninja Fighting Simulator",
+    Name = "Ninja Fighting Simulator (Tora)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0Ninja"))()
     end

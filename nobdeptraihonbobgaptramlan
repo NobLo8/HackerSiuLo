@@ -13,7 +13,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 -- Main window
 local Window = OrionLib:MakeWindow({
-    Name = "Script Hack NobLo (Phiên Bản Thử Nghiệm)",
+    Name = "Script Hack NobLo (Nit)",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "YourConfigFolder"

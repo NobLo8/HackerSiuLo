@@ -155,7 +155,7 @@ ServersTab:AddButton({
 GameTab:AddButton({
     Name = "Push Simulator (Tora)",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/5Polosok/Scripts/main/Protected_8084973456111507.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0Push"))()
     end
 })
 

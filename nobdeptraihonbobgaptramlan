@@ -84,7 +84,7 @@ MainTab:AddButton({
 MainTab:AddButton({
     Name = "Fly",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MaksBloxX/NoClipScript/main/Fly%20V3", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NobLo8/HackerSiuLo/main/flyhack", true))()
     end
 })
 

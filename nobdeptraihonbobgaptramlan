@@ -173,6 +173,13 @@ GameTab:AddButton({
     end
 })
 
+GameTab:AddButton({
+    Name = "Blox Fruit (xQuartyx)",
+    Callback = function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/BF")()
+    end
+})
+
 
 -- Init
 OrionLib:Init()

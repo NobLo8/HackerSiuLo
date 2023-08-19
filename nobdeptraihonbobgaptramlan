@@ -180,6 +180,26 @@ GameTab:AddButton({
     end
 })
 
+GameTab:AddButton({
+    Name = "Blox Fruit (HOHO)",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    end
+})
+
+GameTab:AddButton({
+    Name = "Blox Fruit (NEVAHUB)",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+    end
+})
+
+GameTab:AddButton({
+    Name = "Blox Fruit (SHAREHACK)",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
+    end
+})
 
 -- Init
 OrionLib:Init()

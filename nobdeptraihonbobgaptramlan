@@ -119,7 +119,7 @@ PurchaseTab:AddButton({
 
 -- Servers
 ServersTab:AddButton({
-    Name = "Tham gia máy chủ bé nhất bây giờ",
+    Name = "Join Small Server",
     Callback = function()
         local Http = game:GetService("HttpService")
         local TPS = game:GetService("TeleportService")
@@ -160,7 +160,7 @@ GameTab:AddButton({
 })
 
 GameTab:AddButton({
-    Name = "Punch simulator (Tora)",
+    Name = "Punch Simulator (Tora)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0PUNCH", true))()
     end
